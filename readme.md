@@ -2,5 +2,5 @@
 
 https://www.codewars.com/users/icanksmith
 
-Language: JavaScript
-Comment Language: Bahasa Indonesia
+- Language: JavaScript
+- Comment Language: Bahasa Indonesia
