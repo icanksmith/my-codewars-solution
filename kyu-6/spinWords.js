@@ -24,3 +24,13 @@ console.log(spinWords('Hello my name is Samuel'));
 //anyway ini mungkin kyu-6 terakhirku dlu deh, jujur pusing juga sih
 //lebih cepet push kyu 7 8 aja biar cpt cpt livecode
 
+/* Best solution buat imrpove kodeku dari chatgpt
+
+function spinWords(string) {
+  return string
+    .split(' ')
+    .map(word => word.length >= 5 ? word.split('').reverse().join('') : word)
+    .join(' ');
+}
+
+*/
