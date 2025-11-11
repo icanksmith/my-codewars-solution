@@ -55,3 +55,18 @@ return sorted = [...new Set(combine)].sort().join('');
 }
  */
 
+/* RPN Style tanpa new set
+
+function longest(s1, s2) {
+  let combined = s1 + s2;
+  let unique = '';
+
+  for (let char of combined) {
+    if (!unique.includes(char)) unique += char;
+  }
+
+  return unique.split('').sort().join('');
+}
+
+*/
+
